@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./App.css";
+import "./Responsive.css";
 
 function Todo ({ todo, index, completeTodo, removeTodo, undoneTodo }) {
   return(
@@ -31,6 +32,7 @@ function TodoForm ({ addTodo }){
     <form onSubmit={handleSubmit} className="form">
       <input 
         type="text"
+        maxLength="30"
         placeholder="Add an item and press Enter"
         className="input"
         value={value}
