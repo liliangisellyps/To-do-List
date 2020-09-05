@@ -32,7 +32,7 @@
         background-position-x: 40vw;
     }
 }
-@media (max-height: 500px){
+@media (max-width: 500px){
    .app {    
         background-size: 200px;
         background-position-y: bottom;
